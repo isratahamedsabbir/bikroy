@@ -14,6 +14,6 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp.reigeeky.com
-          username: jamescal@jamescal.reigeeky.com
-          password: "oYfezAk$ZdbT"
+          server: ftpupload.net
+          username: epiz_33987155
+          password: "s55Cg32IZ2b7f"
