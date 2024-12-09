@@ -3,7 +3,14 @@
 use App\Http\Controllers\Web\Backend\Admin\Authorization\PermissionController;
 use App\Http\Controllers\Web\Backend\Admin\Authorization\RoleController;
 use App\Http\Controllers\Web\Backend\Admin\Authorization\UserController;
+use App\Http\Controllers\Web\Backend\Admin\DashboardController;
 use Illuminate\Support\Facades\Route;
+
+/*
+* Dashboard
+*/
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
 
 /*
 * Authorization

@@ -45,6 +45,16 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
-        return redirect(route('dashboard', absolute: false));
+        switch (Auth::user()->getRoleNames()->first()) {
+            case 'admin':
+                return redirect()->route('admin.dashboard');
+            case 'retailer':
+                return redirect()->route('retailer.dashboard');
+            case 'customer':
+                return redirect()->route('customer.dashboard');
+            default:
+                return redirect()->intended(route('home', absolute: false));
+        }
+        
     }
 }

@@ -8,6 +8,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('backend.admin.layout.index');
+        echo "hello";
+        //return view('backend.admin.layout.index');
     }
 }
