@@ -10,14 +10,13 @@ class AuthCheckMiddleware
     public function handle(Request $request, Closure $next)
     {
         if (Auth::check()) {
-            
-            switch (Auth::user()->role) {
+            switch (Auth::user()->getRoleNames()->first()) {
                 case 'admin':
-                    return redirect()->route('dashboard');
-                case 'trainer':
-                    abort(403, 'Unauthorized action.');
-                case 'client':
-                    abort(403, 'Unauthorized action.');
+                    return redirect()->route('admin.dashboard');
+                case 'retailer':
+                    return redirect()->route('retailer.dashboard');
+                case 'customer':
+                    return redirect()->route('customer.dashboard');
             }
         }
         return $next($request);
