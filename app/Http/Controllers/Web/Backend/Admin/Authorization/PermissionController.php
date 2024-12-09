@@ -10,13 +10,13 @@ class PermissionController extends Controller
 {
     public function index()
     {
-        return view('backend.layouts.permissions.index', [
+        return view('backend.admin.layouts.permissions.index', [
             'permissions' => Permission::all()
         ]);
     }
     public function create()
     {
-        return view('backend.layouts.permissions.create');
+        return view('backend.admin.layouts.permissions.create');
     }
     public function store(Request $request)
     {
@@ -40,7 +40,7 @@ class PermissionController extends Controller
     public function edit($id)
     {
         $permission = Permission::find($id);
-        return view('backend.layouts.permissions.edit', [
+        return view('backend.admin.layouts.permissions.edit', [
             'permission' => $permission
         ]);
     }
@@ -64,7 +64,7 @@ class PermissionController extends Controller
     public function show($id)
     {
         $permission = Permission::find($id);
-        return view('backend.layouts.permissions.edit', [
+        return view('backend.admin.layouts.permissions.edit', [
             'permission' => $permission
         ]);
     }

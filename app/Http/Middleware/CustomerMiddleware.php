@@ -11,9 +11,9 @@ class CustomerMiddleware
 {
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth('api')->check() && auth('api')->user()->role === 'customer') {
+        if (Auth::user()->hasRole('customer')) {
             return $next($request);
         }
-        return response()->json(['error' => 'Unauthorized action.'], 403);
+        abort(403, 'Unauthorized action.');
     }
 }

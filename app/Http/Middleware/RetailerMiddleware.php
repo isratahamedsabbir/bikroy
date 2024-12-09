@@ -11,13 +11,10 @@ class RetailerMiddleware
 {
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth('api')->check() && auth('api')->user()->role === 'trainer') {
-            if (auth('api')->user()->status === 'inactive') {
-                return response()->json(['error' => 'Your account is inactive.'], Response::HTTP_FORBIDDEN);
-            }
+        if (Auth::user()->hasRole('trainer')) {
             return $next($request);
         }
 
-        return response()->json(['error' => 'Unauthorized action.'], Response::HTTP_FORBIDDEN);
+        return abort(403, 'Unauthorized action.');
     }
 }

@@ -11,14 +11,14 @@ class RoleController extends Controller
 {
     public function index()
     {
-        return view('backend.layouts.roles.index', [
+        return view('backend.admin.layouts.roles.index', [
             'roles' => Role::all()
         ]);
     }
 
     public function create()
     {
-        return view('backend.layouts.roles.create', [
+        return view('backend.admin.layouts.roles.create', [
             'permissions' => Permission::all()
         ]);
     }
@@ -42,7 +42,7 @@ class RoleController extends Controller
 
     public function edit($id)
     {
-        return view('backend.layouts.roles.edit', [
+        return view('backend.admin.layouts.roles.edit', [
             'role' => Role::find($id),
             'permissions' => Permission::all()
         ]);
@@ -69,7 +69,7 @@ class RoleController extends Controller
 
     public function show($id)
     {
-        return view('backend.layouts.roles.edit', [
+        return view('backend.admin.layouts.roles.edit', [
             'role' => Role::find($id),
             'permissions' => Permission::all()
         ]);

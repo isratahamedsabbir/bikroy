@@ -13,12 +13,12 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $users = User::all();
-        return view('backend.layouts.users.index', compact('users'));
+        return view('backend.admin.layouts.users.index', compact('users'));
     }
 
     public function create(Request $request)
     {
-        return view('backend.layouts.users.create', [
+        return view('backend.admin.layouts.users.create', [
             'roles' => Role::all()
         ]);
     }
@@ -48,7 +48,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         $roles = Role::all();
-        return view('backend.layouts.users.edit', compact('user', 'roles'));
+        return view('backend.admin.layouts.users.edit', compact('user', 'roles'));
     }
 
     public function update(Request $request, $id)
