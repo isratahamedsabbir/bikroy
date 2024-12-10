@@ -73,5 +73,28 @@ class UserSeeder extends Seeder
                 'model_type' => 'App\Models\User'
             ]
         ]);
+
+        DB::table('model_has_permissions')->insert([
+            [
+                'permission_id' => 1,
+                'model_id' => 1,
+                'model_type' => 'App\Models\User'
+            ],
+            [
+                'permission_id' => 2,
+                'model_id' => 1,
+                'model_type' => 'App\Models\User'
+            ],
+            [
+                'permission_id' => 3,
+                'model_id' => 1,
+                'model_type' => 'App\Models\User'
+            ],
+            [
+                'permission_id' => 4,
+                'model_id' => 1,
+                'model_type' => 'App\Models\User'
+            ],
+        ]);
     }
 }
