@@ -1,4 +1,4 @@
-@extends('backend.admin.app')
+@extends('backend.retailer.app')
 
 @section('content')
 <!--app-content open-->

@@ -3,70 +3,70 @@
 
 
 <!-- JQUERY JS -->
-<script src="{{ asset('backend/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/jquery/jquery.min.js') }}"></script>
 
 <!-- BOOTSTRAP JS -->
-<script src="{{ asset('backend/admin/plugins/bootstrap/js/popper.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/bootstrap/js/popper.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 
 <!-- SIDE-MENU JS -->
-<script src="{{ asset('backend/admin/plugins/sidemenu/sidemenu.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/sidemenu/sidemenu.js') }}"></script>
 
 <!-- Perfect SCROLLBAR JS-->
-<script src="{{ asset('backend/admin/plugins/p-scroll/perfect-scrollbar.js') }}"></script>
-<!-- <script src="{{ asset('backend/admin/plugins/p-scroll/pscroll.js') }}"></script> -->
+<script src="{{ asset('backend/retailer/plugins/p-scroll/perfect-scrollbar.js') }}"></script>
+<!-- <script src="{{ asset('backend/retailer/plugins/p-scroll/pscroll.js') }}"></script> -->
 
 <!-- STICKY JS -->
-<script src="{{ asset('backend/admin/js/sticky.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/sticky.js') }}"></script>
 
 
 <!-- APEXCHART JS -->
-<script src="{{ asset('backend/admin/js/apexcharts.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/apexcharts.js') }}"></script>
 
 <!-- INTERNAL SELECT2 JS -->
-<script src="{{ asset('backend/admin/plugins/select2/select2.full.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/select2/select2.full.min.js') }}"></script>
 
 <!-- CHART-CIRCLE JS-->
-<script src="{{ asset('backend/admin/plugins/circle-progress/circle-progress.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/circle-progress/circle-progress.min.js') }}"></script>
 
 {{-- DATA TABLE JS --}}
-<script src="{{ asset('backend/admin/plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/js/dataTables.buttons.min.js') }}"></script>
-{{-- <script src="{{ asset('backend/admin/plugins/datatable/js/butsns.bootstrap5.min.js') }}"></script> --}}
-<script src="{{ asset('backend/admin/plugins/datatable/js/jszip.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/pdfmake/pdfmake.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/pdfmake/vfs_fonts.js') }}"></script>
-{{-- <script src="{{ asset('backend/admin/plugins/datatable/js/butsns.html5.min.js') }}"></script> --}}
-<script src="{{ asset('backend/admin/plugins/datatable/js/buttons.print.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/js/buttons.colVis.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/dataTables.responsive.min.js') }}"></script>
-<script src="{{ asset('backend/admin/plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
-<script src="{{ asset('backend/admin/js/table-data.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/js/dataTables.bootstrap5.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/js/dataTables.buttons.min.js') }}"></script>
+{{-- <script src="{{ asset('backend/retailer/plugins/datatable/js/butsns.bootstrap5.min.js') }}"></script> --}}
+<script src="{{ asset('backend/retailer/plugins/datatable/js/jszip.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/pdfmake/pdfmake.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/pdfmake/vfs_fonts.js') }}"></script>
+{{-- <script src="{{ asset('backend/retailer/plugins/datatable/js/butsns.html5.min.js') }}"></script> --}}
+<script src="{{ asset('backend/retailer/plugins/datatable/js/buttons.print.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/js/buttons.colVis.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/dataTables.responsive.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/table-data.js') }}"></script>
 
 <!-- INDEX JS -->
-<script src="{{ asset('backend/admin/js/index1.js') }}"></script>
-<script src="{{ asset('backend/admin/js/index.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/index1.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/index.js') }}"></script>
 
 <!-- Reply JS-->
-<script src="{{ asset('backend/admin/js/reply.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/reply.js') }}"></script>
 
 
 <!-- COLOR THEME JS -->
-<script src="{{ asset('backend/admin/js/themeColors.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/themeColors.js') }}"></script>
 
 <!-- CUSTOM JS -->
-<script src="{{ asset('backend/admin/js/custom.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/custom.js') }}"></script>
 
 <!-- SWITCHER JS -->
-<script src="{{ asset('backend/admin/switcher/js/switcher.js') }}"></script>
+<script src="{{ asset('backend/retailer/switcher/js/switcher.js') }}"></script>
 
 <!-- INTERNAL Summernote Editor js -->
-<script src="{{ asset('backend/admin/plugins/summernote-editor/summernote1.js') }}"></script>
-<script src="{{ asset('backend/admin/js/summernote.js') }}"></script>
+<script src="{{ asset('backend/retailer/plugins/summernote-editor/summernote1.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/summernote.js') }}"></script>
 
 {{-- toaster js --}}
-<script src="{{ asset('backend/admin/js/toastr.min.js') }}"></script>
+<script src="{{ asset('backend/retailer/js/toastr.min.js') }}"></script>
 
 
 {{-- SweetAlert2 JS --}}
@@ -112,8 +112,8 @@
     };
 </script>
 
-@include('backend.admin.partials.toster')
-@include('backend.admin.partials.ajax')
-@include('backend.admin.partials.notification')
+@include('backend.retailer.partials.toster')
+@include('backend.retailer.partials.ajax')
+@include('backend.retailer.partials.notification')
 
 @stack('scripts')

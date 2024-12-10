@@ -1,20 +1,20 @@
 <!-- BOOTSTRAP CSS -->
-<link id="style" href="{{ asset('backend/admin/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
+<link id="style" href="{{ asset('backend/retailer/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
 
 <!-- STYLE CSS -->
-<link href="{{ asset('backend/admin/css/style.css') }}" rel="stylesheet" />
-<link href="{{ asset('backend/admin/css/skin-modes.css') }}" rel="stylesheet" />
+<link href="{{ asset('backend/retailer/css/style.css') }}" rel="stylesheet" />
+<link href="{{ asset('backend/retailer/css/skin-modes.css') }}" rel="stylesheet" />
 
 
 <!--- FONT-ICONS CSS -->
-<link href="{{ asset('backend/admin/plugins/icons/icons.css') }}" rel="stylesheet" />
+<link href="{{ asset('backend/retailer/plugins/icons/icons.css') }}" rel="stylesheet" />
 
 <!-- INTERNAL Switcher css -->
-<link href="{{ asset('backend/admin/switcher/css/switcher.css') }}" rel="stylesheet">
-<link href="{{ asset('backend/admin/switcher/demo.css') }}" rel="stylesheet">
+<link href="{{ asset('backend/retailer/switcher/css/switcher.css') }}" rel="stylesheet">
+<link href="{{ asset('backend/retailer/switcher/demo.css') }}" rel="stylesheet">
 
 {{-- toaster css --}}
-<link href="{{ asset('backend/admin/css/toastr.css') }}" rel="stylesheet" />
+<link href="{{ asset('backend/retailer/css/toastr.css') }}" rel="stylesheet" />
 
 <!-- Bootstrap icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />

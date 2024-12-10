@@ -23,29 +23,29 @@ $settings = \App\Models\Setting::first();
 
     @vite(['resources/js/app.js'])
     
-    @include('backend.admin.partials.styles')
+    @include('backend.retailer.partials.styles')
     
 </head>
 
 <body class="ltr app sidebar-mini">
-    @include('backend.admin.partials.switcher')
+    @include('backend.retailer.partials.switcher')
 
-    @include('backend.admin.partials.loader')
+    @include('backend.retailer.partials.loader')
 
     <!-- PAGE -->
     <div class="page">
         <div class="page-main">
-            @include('backend.admin.partials.header')
-            @include('backend.admin.partials.sidebar')
+            @include('backend.retailer.partials.header')
+            @include('backend.retailer.partials.sidebar')
 
             @yield('content')
         </div>
 
-        @include('backend.admin.partials.footer')
+        @include('backend.retailer.partials.footer')
 
     </div>
     <!-- page -->
-    @include('backend.admin.partials.scripts')
+    @include('backend.retailer.partials.scripts')
     
 </body>
 
